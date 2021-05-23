@@ -8,9 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fullcalendar/daygrid": "^5.7.0",
+    "@fullcalendar/react": "^5.7.0",
+    "antd": "^4.15.6",
     "next": "10.2.2",
+    "next-images": "^1.7.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "@types/react": "17.0.6",
