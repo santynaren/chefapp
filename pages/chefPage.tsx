@@ -3,7 +3,7 @@ import HeroSection from "../Components/HeroSection";
 import ChefInformation from "../Components/ChefInformation";
 import ChefBio from "../Components/ChefBio";
 import DishCard from "../Components/DishCard";
-import { Layout, Col, Row } from "antd";
+import { Layout, Col, Row, Button } from "antd";
 interface chefPageProps {}
 
 const ChefPage: React.FC<chefPageProps> = ({}) => {
@@ -28,6 +28,14 @@ const ChefPage: React.FC<chefPageProps> = ({}) => {
 
 				<DishCard />
 			</Col>
+			<Row>
+				<Col xs={0} xl={8}></Col>
+				<Col xs={24} style={{ marginTop: "20px", textAlign: "center" }} xl={8}>
+					<Button type='primary'>Update my Schedule</Button>
+				</Col>
+
+				<Col xs={0} xl={8}></Col>
+			</Row>
 		</Layout>
 	);
 };

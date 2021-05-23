@@ -31,7 +31,6 @@ const ChefInformation: React.FC<ChefInformationProps> = ({}) => {
 				</Col>
 				<Col xs={24} xl={6} className={styles.nameInfo}>
 					<Title level={1}>Dorian Hunter</Title>
-
 					<Tag color='green'>Available for New Order</Tag>
 				</Col>
 				<Col xl={14}>
