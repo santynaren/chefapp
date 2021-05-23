@@ -87,3 +87,33 @@
 	justify-content: space-between;
 	overflow-x: auto;
 }
+/* Dishes Display CSS */
+.dishCard {
+	width: 250px;
+	margin: 20px;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+.dishCusine {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-flow: inherit;
+	justify-content: space-between;
+}
+.dishesDisplay {
+	min-width: 100%;
+	display: flex;
+	overflow-x: auto;
+}
+.section {
+	display: flex;
+}
+.dishImage {
+	width: 100%;
+	border-radius: 10px;
+}
