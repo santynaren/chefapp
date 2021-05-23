@@ -16,15 +16,15 @@ const ChefPage: React.FC<chefPageProps> = ({}) => {
 					<HeroSection />
 				</Row>
 				<Row>
-					<Col xs={0} xl={3}></Col>
-					<Col xs={24} xl={18}>
+				
+					<Col xs={24} xl={24}>
 						<Content style={{ padding: "0 50px" }}>
 							<ChefInformation />
 							<ChefBio />
 						</Content>
 					</Col>
 
-					<Col xs={0} xl={3}></Col>
+					
 				</Row>
 
 				<DishCard />
