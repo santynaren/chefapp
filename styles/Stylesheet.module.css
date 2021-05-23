@@ -15,7 +15,7 @@
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 10px;
-	margin-top: -40px;
+	margin-top: -50px;
 }
 .statusVideo {
 	padding: 5px;
@@ -116,4 +116,32 @@
 .dishImage {
 	width: 100%;
 	border-radius: 10px;
+}
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 600px) {
+	.statsCard {
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.itemsCard {
+		width: 100%;
+	}
+	.availablityCard {
+		margin: 30px;
+	}
+	.nameInfo {
+		align-items: center;
+	}
+
+	.availablityIndex {
+		width: 100%;
+		height: 150px;
+		background-color: #fff;
+		border-radius: 10px;
+		padding: 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 }

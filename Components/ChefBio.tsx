@@ -7,7 +7,7 @@ interface ChefBioProps {}
 const ChefBio: React.FC<ChefBioProps> = ({}) => {
 	const { Panel } = Collapse;
 	return (
-		<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+		<Row style={{ marginTop: "20px" }} gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 			<Col xs={24} xl={12}>
 				<Row>
 					<div className={styles.backgroundCard}>

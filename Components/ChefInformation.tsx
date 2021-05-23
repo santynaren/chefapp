@@ -14,7 +14,7 @@ const ChefInformation: React.FC<ChefInformationProps> = ({}) => {
 	setTwoToneColor("#EB3943");
 	const [videoModal, setVideoModal] = React.useState(false);
 	return (
-		<Content style={{ padding: "0 50px" }}>
+		<Content>
 			<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 				<Col xs={24} xl={4} className='gutter-row'>
 					<div className={styles.displayPictureSection}>
