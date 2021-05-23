@@ -1,0 +1,9 @@
+.heroImage {
+	width: 100%;
+	height: 30vh;
+	background-image: url("https://nevertoolatetostart.org/wp-content/uploads/2019/09/Dorian-Wins.png");
+	background-repeat: no-repeat;
+	background-size: 100% 190%;
+	background-position-y: 30;
+	background-position: center;
+}
