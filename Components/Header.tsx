@@ -1,11 +1,11 @@
 import React from "react";
-import { Layout, Button, Tag, Menu, Modal, Row, Col, Typography } from "antd";
+import { Layout,  Menu } from "antd";
 import Head from "next/head";
 
 interface HeaderProps {}
 
 export const Header: React.FC<HeaderProps> = ({}) => {
-	const { Header, Content, Footer } = Layout;
+	const { Header } = Layout;
 	return (
 		<>
 			<Head>
