@@ -32,7 +32,7 @@ const ChefPage: React.FC<chefPageProps> = ({}) => {
 			<Row>
 				<Col xs={0} xl={8}></Col>
 				<Col xs={24} style={{ marginTop: "20px", textAlign: "center" }} xl={8}>
-					<Link href='/Schedule'>
+					<Link href='/schedule'>
 						<Button type='primary'>Update my Schedule</Button>
 					</Link>
 				</Col>
